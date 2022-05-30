@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --mf : 'Grand Hotel', cursive;
+    --sf : 'Montserrat', sans-serif;
+    --brand : #ffc200;
+    --brand2 : #303030;
+}
+
+/*
+root css ends
+*/
+
+.g-reg{
+    font-family: var(--mf);
+    font-weight: 400;
+}
+
+.m-bold{
+    font-family: var(--sf);
+    font-weight: 700;
+}
+
+.m-reg{
+    font-family: var(--sf);
+    font-weight: 400;
+}
+
+/*
+font family css ends
+*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-19{
+    font-size: 19px;
+}
+
+.fs-23{
+    font-size: 23px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+.fs-29{
+    font-size: 29px;
+}
+
+.fs-41{
+    font-size: 41px;
+}
+
+.fs-44{
+    font-size: 44px;
+}
+
+.fs-49{
+    font-size: 49px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-74{
+    font-size: 74px;
+}
+
+.fs-75{
+    font-size: 75px;
+}
+
+.fs-100{
+    font-size: 100px;
+}
+
+.fs-124{
+    font-size: 124px;
+}
+
+/*
+font css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+nav{
+    z-index: 999;
+}
+
+/*
+nav css ends
+*/
+
+#banner .banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner .banner .banner-text{
+    padding: 220px 0;
+}
+
+#banner .banner .banner-text h1{
+    color: var(--brand);
+}
+
+#banner .banner .banner-text h2{
+    padding: 50px 0;
+}
+
+/*
+banner css ends
+*/
+
+#seller .seller{
+    padding: 140px 0;
+}
+
+#seller .seller header{
+    padding-bottom: 80px;
+}
+
+/*
+seller css ends
+*/
+
+#taste .taste{
+    background-color: var(--brand2);
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+    padding: 5% 0;
+}
+
+#taste .taste .taste-text h1{
+    color: var(--brand);
+}
+
+#taste .taste .taste-text h2{
+    padding: 45px 0;
+}
+
+/*
+taste css ends
+*/
+
+#stat .stat{
+    background-image: url(../images/stat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+#stat .stat header{
+    padding-bottom: 100px;
+}
+
+#stat .stat header h1{
+    color: var(--brand);
+}
+
+#stat .stat .stat-item{
+    border: 4px solid #fff;
+    padding: 90px 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#stat .stat .stat-item h3{
+    color: var(--brand);
+}
+
+/*
+stat css ends
+*/
+
+#grill .grill{
+    background-color: var(--brand2);
+    padding: 140px 0;
+}
+
+#grill .grill .grill-text h1{
+    color: var(--brand);
+}
+
+#grill .grill .grill-text h2{
+    padding: 45px 0;
+}
+
+/*
+grill css ends
+*/
+
+#test .parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+#test .test{
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+}
+
+#test .test::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 196, 0, 0.70);
+    z-index: -1;
+}
+
+/*
+test css ends
+*/
+
+#sub .sub{
+    background-image: url(../images/s.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+#sub .sub .sub-text{
+    padding: 50px 0;
+}
+
+#sub .sub .sub-text h2{
+    padding: 30px 0;
+}
+
+#sub .sub .sub-text button{
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+#sub .sub .sub-text button:hover{
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+
+/*
+sub css ends
+*/
+
+footer{
+    background-color: var(--brand2);
+    padding: 250px 0;
+}
+
+/*
+footer css ends
+*/

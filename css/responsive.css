@@ -1,0 +1,46 @@
+@media (max-width:575px) {
+
+    #banner .banner .banner-text{
+        padding: 80px 0 !important;
+    }
+
+    #banner .banner .banner-text h1 {
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+
+    #seller .seller {
+        padding: 100px 0 !important;
+    }
+
+    #seller .seller .seller-item{
+        margin-bottom: 60px;
+    }
+
+    #stat .stat{
+        padding: 200px 0px 0px 0px !important;
+    }
+
+    #stat .stat .stat-item {
+        border: none !important;
+    }
+
+    #grill .grill .grill-text{
+        margin-bottom: 60px;
+    }
+
+    #sub .sub{
+        padding: 100px 0 !important;
+    }
+
+    footer .item1 ul{
+        margin-bottom: 60px;
+    }
+
+    footer .item{
+        margin-bottom: 60px;
+    }
+}
